@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PhNews</title>
+</head>
+
+<body>
+    <header id="header">
+        <!-- =====================
+            TOP HEADER
+        ======================= -->
+
+        <div class="top-header">
+            <div class="container">
+                <ul class="top-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <div class="buttons">
+                        <a href="signup.html" class="btn btn-info">SignUp</a>
+                        <a href="login.html" class="btn btn-secondary">Login</a>
+                    </div>
+                </ul>
+                <div class="follow-us d-flex">
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="user">
+                        <div class="user-avatar">
+                            <img src="img/new4.jpg" alt="" class="img-fluid">
+                        </div>
+                        <ul class="user-tools">
+                            <li><a href="#"><i class="fa fa-pencil mr-2"></i> Create Post</a></li>
+                            <li><a href="#"><i class="fa fa-upload mr-2"></i> Uploads</a></li>
+                            <li><a href="#"><i class="fa fa-edit mr-2"></i> Edit profile</a></li>
+                            <li><a href="#"><i class="fa fa-cogs mr-2"></i> Settings</a></li>
+                            <li><a href="#"><i class="fa fa-power-off mr-2"></i> LogOut</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==========================================
+                BOTTOM  HEADER
+    ===========================================-->
+        <div class="bottom-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <h1>CampusYarn<sub>.com</sub></h1>
+                    </a>
+                    <div class="navbar-header">
+                        <button type="button" id="nav-toggle" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#navigation-menu">
+                            <span class="toggler-icon">
+                                <i class="fa fa-bars text-dark fa-2x"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div id="navigation-menu" class="collapse navbar-collapse" role="navigation">
+                        <ul class="navbar-nav ml-auto text-left">
+                            <li class="nav-item"><a href="index.html" class="nav-link selected-nav  px-4">Home</a></li>
+                            <li class="nav-item"><a href="category.html" class="nav-link  px-4">Arts</a></li>
+                            <li class="nav-item"><a href="category.html" class="nav-link  px-4">Entertainment</a></li>
+                            <li class="nav-item"><a href="category.html" class="nav-link  px-4">Business</a></li>
+                            <li class="nav-item"><a href="category.html" class="nav-link  px-4">Travel</a></li>
+                            <li class="nav-item"><a href="category.html" class="nav-link  px-4">Lifestyle</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--=============================
+             SEARCH BAR SECTION
+        ============================== -->
+        <div class="search-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm col-md-12">
+                        <!-- <div class="banner d-flex justify-content-center mb-2">
+                            <img src="img/banner-01.jpg" alt="" class="img-fluid">
+                        </div> -->
+                        <form action="">
+                            <div class="from-group search-area col-sm col-md-6 col-lg-3 ml-auto p-0 ">
+                                <button type="submit"><i class="fa fa-search"></i></button><input type="text"
+                                    placeholder="search this blog" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================
+        LOGIN FORM
+    =============================-->
+        <section class="login-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm col-md-6 m-auto">
+                        <!-- form card -->
+                        <div class="login-form-card">
+                            <h3>Login</h3>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="name">Username</label>
+                                    <input type="text" id="name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" id="password" class="form-control">
+                                </div>
+                                <p class="recover"><a href="#">Forgot password?</a></p>
+                                <div class="form-group text-center">
+                                    <input type="submit" value="LOGIN">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============================
+          NEWSLETTER SECTION
+    =================================== -->
+        <section class="newsletter">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-sm col-md-12">
+                        <h3>Subscribe to our newsletter</h3>
+                        <form action="">
+                            <div class="form-group news-input col-sm col-md-6 m-auto">
+                                <input type="email" id="email" placeholder="Enter email address" class="form-control">
+                                <input type="submit" value="SUBMIT">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========================
+                FOOTER SECTION  
+        =================================-->
+        <footer class="footer pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm col-md-4">
+                        <div class="about-phnews my-3">
+                            <h1 class="mb-4">CampusYarn<sub>.com</sub></h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus suscipit possimus totam
+                                sit
+                                laudantium explicabo, reiciendis sequi sint. Earum odit temporibus ad veritatis iste vel
+                                in
+                                ipsum voluptas? Excepturi, quod maiores maxime vel, molestiae nemo a quia fugit
+                                dignissimos
+                                eaque aliquid .
+                            </p>
+                            <p>Any question call us on (+234)8107572949</p>
+                            <div class="social-links pb-5">
+                                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md-4">
+                        <div class="popular-post my-4">
+                            <h4>Popular Post</h4>
+                            <div class="post-items">
+                                <div class="item d-flex">
+                                    <div class="item-img">
+                                        <img src="img/post-15.jpg" alt="">
+                                    </div>
+                                    <div class="item-title ml-3">
+                                        <h6><a href="readme.html">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-items">
+                                <div class="item d-flex">
+                                    <div class="item-img">
+                                        <img src="img/post-17.jpg" alt="">
+                                    </div>
+                                    <div class="item-title ml-3">
+                                        <h6><a href="readme.html">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-items">
+                                <div class="item d-flex">
+                                    <div class="item-img">
+                                        <img src="img/post-16.jpg" alt="">
+                                    </div>
+                                    <div class="item-title ml-3">
+                                        <h6><a href="readme.html">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md-4">
+                        <div class="category my-4">
+                            <h4>Category</h4>
+                            <ul class="category-list">
+                                <li><a href="#">Arts (24)</a></li>
+                                <li><a href="#">Entertainment (14)</a></li>
+                                <li><a href="#">Business (11)</a></li>
+                                <li><a href="#">Travel (5)</a></li>
+                                <li><a href="#">Lifestyle (50)</a></li>
+                            </ul>
+                        </div>
+                        <ul class="pages">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer d-flex justify-content-around py-3">
+                <p>Designed by: <a href="">Buchi</a></p>
+                <p>@ 2019</p>
+                <p>powered by: <a href="#">BitHub</a></p>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>
